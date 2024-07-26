@@ -1,0 +1,121 @@
+:root {
+  --black: rgba(29, 29, 29, 0.85);
+  --dark-primary: #001d44;
+  --dark-primary-transparent: rgba(0, 30, 68, 0.877);
+  --primary: #45bfae;
+  --primary-transparent: #45bfae;
+  --secondary: #9b9b9b;
+  --dark: #4c1158;
+  --danger: #d93434;
+  --warning: #d78e4b;
+  --success: #35a872;
+  --info: #0f80e9;
+}
+
+*,
+pre {
+  font-family: "Montserrat", sans-serif;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.h-fit {
+  height: fit-content !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
+}
+
+.fit-cover {
+  object-fit: cover;
+}
+
+/** Custom Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+/** bootstrap override values */
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.text-dark-primary {
+  color: var(--dark-primary) !important;
+}
+
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover {
+  background-color: var(--dark-primary) !important;
+}
+
+.btn.focus,
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(69, 191, 174, 0.25);
+}
+
+.form-control:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 0.2rem rgba(69, 191, 174, 0.25);
+}
+
+a.text-primary:focus,
+a.text-primary:hover {
+  color: var(--dark-primary) !important;
+}

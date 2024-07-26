@@ -1,0 +1,17 @@
+.login-container {
+  background-color: var(--primary);
+}
+
+.headline {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 29.26px;
+}
+
+.caption {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21.94px;
+}
